@@ -1,0 +1,49 @@
+{
+  "MongoDB_URL": "mongodb://localhost/smartexam",
+  "JWT_SECRET": "hello world",
+  "que2": [
+    "Define Cryptography in your own way along with its benefits?",
+    "Tell us about a few major applications of cryptography in the modern world?",
+    "What is decryption? What is its need?",
+    "What are the major threats to any data or information for which it needs cryptography?",
+    "What do you mean by Secret Key Cryptography and Public Key Cryptography? How they are different from one another",
+    "How Hash Functions are different from Public Key Cryptography and Secret Key Cryptography?",
+    "What type of information can be secured with Cryptography?",
+    "What Would It Take To Break Rsa?",
+    "How Is Rsa Used For Authentication In Practice? What Are Rsa Digital Signatures?",
+    "What Are The Alternatives To Rsa?",
+    "Can Rsa Be Exported From The United States?"
+  ],
+  "key2": [
+    "Cryptography benefits",
+    "cryptography applications",
+    "decryption",
+    "cryptography threats",
+    "public key Cryptography",
+    "Hash Functions",
+    "Cryptography security",
+    "Break Rsa",
+    "RSA Authentication",
+    "Alternatives RSA",
+    "Rsa US"
+  ],
+  "que13": [
+    "What type of information can be secured with Cryptography?",
+    "What Would It Take To Break Rsa?",
+    "How Is Rsa Used For Authentication In Practice? What Are Rsa Digital Signatures?",
+    "What Are The Alternatives To Rsa?",
+    "Can Rsa Be Exported From The United States?"
+  ],
+  "key13": [
+    "information secured",
+    "Break Rsa",
+    "RSA Authentication",
+    "Alternatives RSA",
+    "Rsa US"
+  ],
+  "que15": [
+    "How Is Rsa Used For Authentication In Practice? What Are Rsa Digital Signatures?"
+  ],
+  "key15": ["Digital Signatures"],
+  "wiki_url": "https://en.wikipedia.org/w/api.php?action=opensearch&format=json&search="
+}

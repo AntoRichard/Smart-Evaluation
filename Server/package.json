@@ -1,0 +1,44 @@
+{
+  "name": "smart-evaluation-system-server",
+  "version": "1.0.0",
+  "description": "Smart Evaluation System ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AntoRichard/Smart-Evalutaion.git"
+  },
+  "keywords": [
+    "smart",
+    "evaluation",
+    "exam",
+    "online",
+    "exam",
+    "smart",
+    "exam"
+  ],
+  "author": "Antony Raj Richard",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AntoRichard/Smart-Evalutaion/issues"
+  },
+  "homepage": "https://github.com/AntoRichard/Smart-Evalutaion#readme",
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.2"
+  },
+  "dependencies": {
+    "config": "^3.2.2",
+    "cryptr": "^4.0.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.1",
+    "node-fetch": "^2.6.0",
+    "string-score": "^1.0.1"
+  }
+}
