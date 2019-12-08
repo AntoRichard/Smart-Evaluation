@@ -49,8 +49,8 @@ exports.loginPost = async (req, res) => {
       });
     }
   } catch (err) {
-    res.status(402).json({
-      msg: 'Auth failed'
+    res.status(500).json({
+      msg: 'Internal server problem'
     });
   }
 };

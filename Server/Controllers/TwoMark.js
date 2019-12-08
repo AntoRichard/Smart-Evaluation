@@ -12,20 +12,24 @@ exports.TwoMarkGet = (req, res) => {
   res.json(questions);
 };
 
-exports.TwoMarkPost = async (req, res) => {
-  console.log(req.body);
+const wikiEval = (body) => {
   var total_score = 0,
-    text = null,
-    index = 0;
+  text = null,
+  index = 0;
   for (let i = 0; i < 10; i++) {
-    var ans = req.body[i + 1];
+    var ans = body[i + 1];
     var response = await fetch(wiki_url + key[index++]);
     var datas = await response.json();
     datas[2].forEach(data => {
       text += data;
-    });
-    var score = StringScore(text, ans);
-    total_score += score * 2;
-  }
-  console.log(total_score);
+  });
+  var score = StringScore(text, ans);
+  total_score += score * 2;
+}
+  return total_score;
+}
+exports.TwoMarkPost = async (req, res) => {
+  const wikiMark = wikiEval(req.body);
+  const keyMark = ;
 };
+
